@@ -15,7 +15,7 @@ export default function MuiDatePicker({
         renderInput={(props) => (
           <TextField
             {...props}
-            className="no-input-border"
+            className="no-input-border "
             size="small"
             helperText={props?.InputProps?.placeholder}
           />

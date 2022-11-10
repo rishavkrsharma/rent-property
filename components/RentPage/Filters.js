@@ -31,7 +31,7 @@ const Filters = ({ filter, setFilter }) => {
   const renderFilter = (filter) => {
     if (filter?.type === "location") {
       return (
-        <div className="mt-2 text-sm w-52">
+        <div className="mt-2 text-sm w-full">
           <MultiSelect
             options={filter?.options}
             labelField="name"
@@ -44,7 +44,7 @@ const Filters = ({ filter, setFilter }) => {
       );
     } else if (filter?.type === "date") {
       return (
-        <div className="mt-2 text-sm w-52">
+        <div className="mt-2 text-sm w-full">
           <MuiDatePicker
             label="Select Move-in Date"
             value={date}
@@ -60,7 +60,7 @@ const Filters = ({ filter, setFilter }) => {
             items={filter?.options}
             title={price?.name}
             handleClick={setPrice}
-            className="w-52"
+            className="w-full"
           />
         </div>
       );
@@ -71,7 +71,7 @@ const Filters = ({ filter, setFilter }) => {
             items={filter?.options}
             title={propertyType?.name}
             handleClick={setPropertyType}
-            className="w-52"
+            className="w-full"
           />
         </div>
       );
@@ -80,7 +80,7 @@ const Filters = ({ filter, setFilter }) => {
 
   return (
     <div className="bg-white shadow-md rounded-md mb-8 py-8 top-2 z-10 ">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
         {filters.map((filter, index) => (
           <div key={index} className="px-6">
             <div className="text-sm text-gray-500 capitalize font-medium">
