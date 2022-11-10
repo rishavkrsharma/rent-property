@@ -19,7 +19,7 @@ export function DropdownMenu({
     >
       <div>
         {variant === "dropdown" && (
-          <Menu.Button className="inline-flex justify-between w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-indigo-50">
+          <Menu.Button className="inline-flex justify-between w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-normal text-gray-700 hover:bg-indigo-50">
             {title}
             <ChevronDownIcon
               className="-mr-1 ml-2 h-5 w-5"

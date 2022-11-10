@@ -58,7 +58,7 @@ export const properties = [
   },
   {
     id: 4,
-    name: "Palm Harbor",
+    name: "Cirque du Soleil",
     rent: 2399,
     address: {
       fullAddress: "2699 Green valley, Georgia, USA",
@@ -77,7 +77,7 @@ export const properties = [
   },
   {
     id: 5,
-    name: "Bevely Springfield",
+    name: "Oahu",
     rent: 4560,
     address: {
       fullAddress: "2699 Green valley, Washington DC, USA",
@@ -96,7 +96,7 @@ export const properties = [
   },
   {
     id: 6,
-    name: "Faulkner Ave",
+    name: "Smithsonian",
     rent: 2000,
     address: {
       fullAddress: "2699 Green valley, California, USA",
@@ -115,7 +115,7 @@ export const properties = [
   },
   {
     id: 7,
-    name: "Palm Harbor",
+    name: "Bayou Park",
     rent: 1999,
     address: {
       fullAddress: "2699 Green valley, Texas, USA",
@@ -134,7 +134,7 @@ export const properties = [
   },
   {
     id: 8,
-    name: "Bevely Springfield",
+    name: "Waikiki",
     rent: 890,
     address: {
       fullAddress: "2699 Green valley, New York, USA",
@@ -153,7 +153,7 @@ export const properties = [
   },
   {
     id: 9,
-    name: "Faulkner Ave",
+    name: "Art Deco District",
     rent: 1799,
     address: {
       fullAddress: "2699 Green valley, New York, USA",
