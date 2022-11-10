@@ -5,7 +5,7 @@ export default function AdvCard() {
           <div className="px-6 py-6 bg-indigo-700 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
             <div className="xl:w-0 xl:flex-1">
               <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
-                Can't find houses on your favourite places
+                Can&apos;t find houses on your favourite places
               </h2>
               <p className="mt-3 max-w-3xl text-lg leading-6 text-indigo-200">
                 Sign up for our newsletter to stay up to date with new locations.
