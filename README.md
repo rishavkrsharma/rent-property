@@ -1,5 +1,7 @@
 # Rent a property
 
+# Preview Link - https://rent-property-eta.vercel.app/
+
 ## Setup instructions
 
 - Clone repo
